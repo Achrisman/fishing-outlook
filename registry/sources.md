@@ -32,5 +32,9 @@ One fetch returns: 0-100 score, water temp, wind AM/PM, swell ht/period, wave po
 ## River (Feather/Sac fall-run module, pending)
 - CDEC flow CFS; hatchery passage counts. Schema variant per FRESHWATER_SCHEMA_v1_1.md.
 
+## Visibility / turbidity (added 2026-08-23)
+LIVE: USGS NWIS real-time turbidity (FNU, 15-min), 8 SF Bay stations. Confirmed live: Alcatraz 374938122251801. Pattern: web_search "USGS turbidity <station/area>" -> fetch. Caveats: channel sensors UNDERSTATE shallows (USGS: shallows are the most turbid water, wave-driven resuspension); Central Bay stations are a proxy for San Pablo.
+ANNUAL PATTERN (REPORTED, USGS-mechanism-backed): turbidity tracks wind season — murky ~late May-summer, clearing fall. Hourly wind forecast doubles as same-day clarity predictor. Rough angler read: <10 FNU decent viz, 10-30 marginal, >30 mud. Calibrate against on-water estimates in session logs.
+
 ## Regs
 - CDFW via web search, every session, per species. Shore exemptions ≠ boat regs.
