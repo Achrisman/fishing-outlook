@@ -15,5 +15,6 @@ Season status changes: verify CDFW SF zone + Central Valley every query. Barbles
 - **Feather River (pending module)**: needs schema variant (CFS flow, hatchery counts). Thermalito Afterbay Outlet (bank ~3h) / Verona confluence (boat ~2h).
 
 ## Technique notes
-- Toothpick-locked crippled anchovy: forces/holds the bend (community intel, dated).
+- Toothpick-locked crippled anchovy: forces/holds the bend [YT-IB-01, 2018].
+- Mooching rig spec + scope!=depth + naked-Apex big king + krill-stomach flash logic: [YT-IB-01].
 - Bait freshness rule applies doubly for rotating anchovy rigs.
