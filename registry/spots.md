@@ -34,6 +34,8 @@ FishNotify column: named page exists = search "fishnotify <city> fishing forecas
 | Berkeley Flats | 37.8720, -122.3400 | ≈0 | halibut, striper | no | Exposed to W wind chop |
 | HMB nearshore | 37.4950, -122.4990 | Pillar Point 9414131 | salmon, rockfish | YES (Half Moon Bay page) | AirCat: buddy-boat or stay near harbor mouth |
 | Bolinas Lagoon launch → Marin coast | 37.9060, -122.6860 | Stinson offsets nearby | salmon (Aug window) | no | Tide-dependent launch; bar caution |
+| Tiburon east shore (Paradise→Bluff Pt shelf) | 37.882, -122.461 | ~SF+10/+20 | halibut+striper MAY-JUL (Aug shares 9%/3%); Aug = leopard shark (flood 69%, dusk/night) + bat ray (ebb 62%) | no | Derived N=307; more SW-exposed than McNears lee |
+| Raccoon Strait | 37.878, -122.448 | ≈SF+10 | halibut/striper drift MAY-JUL only (N=6 ea, zero Aug); THIN DATA — June revisit | no | Strongest current in range; wind-against-ebb chop = AirCat caution |
 | Richmond Bridge area | 37.9280, -122.4260 | ≈0/+20 | striper (Die Dapper confirmed) | no | Current-heavy |
 
 ## Template (new spot)
