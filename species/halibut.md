@@ -26,3 +26,5 @@ Min 22", bag limits differ inside/outside SF Bay. Verify CDFW current.
 - Paradise N=33: tide-neutral CONFIRMED (55F/45E); midday 39% + PM 24%; months Jun 36%/Jul 21%/Aug 15%.
 - Loch Lomond N=22: Flood 64% (seed said 68% — now 64 on full dedupe); dusk 32% + midday 32% + PM 27%; MAY = 50% of records.
 - Cavallo N=10 (thin): ebb 60%, midday.
+- Tiburon east shore N=67: Flood 60%; midday 33% + PM 27%; SEASONAL: Jun 36%/May 24%/Jul 18%, Aug only 9% — treat as May-Jul program.
+- Raccoon Strait N=6 (thin): 50/50 tide, midday; zero Aug records.
