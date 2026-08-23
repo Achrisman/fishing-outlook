@@ -20,3 +20,9 @@ Min 22", bag limits differ inside/outside SF Bay. Verify CDFW current.
 
 ## Conditions gates
 1. Clarity (visual) 2. Flood at Loch Lomond 3. Tide-neutral spots: prioritize light and bait quality.
+
+
+## DERIVED PROFILES (raw CSVs, deduped, 2026-08-23)
+- Paradise N=33: tide-neutral CONFIRMED (55F/45E); midday 39% + PM 24%; months Jun 36%/Jul 21%/Aug 15%.
+- Loch Lomond N=22: Flood 64% (seed said 68% — now 64 on full dedupe); dusk 32% + midday 32% + PM 27%; MAY = 50% of records.
+- Cavallo N=10 (thin): ebb 60%, midday.
