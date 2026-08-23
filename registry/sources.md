@@ -8,16 +8,16 @@ confidence: FishNotify pattern TESTED 2026-08-23 (Pacifica, live same-day data);
 - Never derive gear/bait/species/tide claims from summary CSVs (Bay_Area_Fishing_Insights_Rules.csv, *_Analysis.csv). Raw *_filtered.csv only, dedup on Fishbrain_ID.
 - Date every source. Facebook: verify original upload date (reposts hide age).
 
-## Tides (Bay interior — primary)
-NOAA CO-OPS API, station 9414290:
-`https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=predictions&datum=MLLW&time_zone=lst_ldt&interval=hilo&units=english&station=9414290&format=json&begin_date=YYYYMMDD&end_date=YYYYMMDD`
-Apply per-spot offsets from spots.md. Fallback: tides4fishing.com.
-Note: bash network here cannot reach NOAA — pull via web_fetch, not curl.
+## Tides (Bay interior — primary) [UPDATED 2026-08-23, dry-run tested]
+PRIMARY: cached monthly table in repo — data/tides_9414290_YYYY-MM.md. Read it, apply per-spot offsets from spots.md. Zero live calls.
+MONTHLY REFRESH: web_search "usharbors san francisco tides" → web_fetch result → full month table in ONE fetch → commit new data file.
+LIVE FALLBACK (cache missing/stale): same search→fetch. tides4fishing.com secondary.
+CONSTRAINT (tested 2026-08-23): the NOAA CO-OPS API URL cannot be fetched directly — the fetch tool rejects URLs not surfaced by a search. Any direct-API pattern must be search-first.
 
 ## Coastal composite — FishNotify (TESTED)
 One fetch returns: 0-100 score, water temp, wind AM/PM, swell ht/period, wave power, pressure, moon, best-fishing window, 7-day table, local NOAA tide station.
 - Pattern: web_search "fishnotify <location> fishing forecast" → web_fetch the result URL.
-- CONSTRAINT (tested): constructed URLs are rejected by the fetch tool — must search first or use a URL already in-conversation.
+- CONSTRAINT (re-tested 2026-08-23): constructed URLs are rejected, AND page URLs from earlier fetches/turns do NOT reliably persist as fetchable. Rule: fresh web_search → web_fetch pair per FishNotify spot, per session, no exceptions.
 - Coverage: coastal only. Named pages confirmed: Pacifica, Half Moon Bay, Ocean Beach SF, Bodega Bay, Santa Cruz.
 - Treat the 0-100 score as ONE input, not a verdict — it doesn't know species or structure. Use the raw variables against our formulas.
 
