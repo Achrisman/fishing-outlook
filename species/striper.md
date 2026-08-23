@@ -15,14 +15,14 @@ CA min 18", bag 2. Verify current CDFW before keeping. Consumption advisories ap
 - **China Camp / Rat Rock box**: 57 shoreline stripers in dataset — natural bait + soft plastics dominate; ZERO metal/spoons in record. Match the hatch: paddle tail category or bait.
 - **Richmond Bridge (mode: boat/shore)**: Bass Assassin 5" Die Dapper confirmed producer; current-heavy — 3/8oz+ heads.
 
-## Behavior framework (Temple Smok, CSBF, Jul 2026 — single angler, method MEDIUM, locations LOW)
+## Behavior framework [TS-01] (single angler, method MEDIUM, locations LOW)
 - Structure > tide direction: he produces on both tides; discriminator is rock edges adjacent to mud flats (flood) → deeper channels (ebb).
 - Turbidity seams (true current-convergence mud lines, NOT bathymetry gradients) concentrate bait.
 - Cast up-current, let paddle tail swing down, retrieve just fast enough for bottom contact.
 - Timing rule: start ~2h after low (not clock-anchored).
-- Gear: white paddle tail on jig head — category, not SKU. Rattling option: Storm 360GT Searchbait Shad 3/8oz (rattle is in the jighead — don't rig bodies on plain heads and expect the feature).
+- Gear: white paddle tail on jig head — category, not SKU. Rattling option: Storm 360GT Searchbait Shad 3/8oz [TS-02] (rattle is in the jighead — don't rig bodies on plain heads and expect the feature).
 
-## Surf-casting block (coastal: Ocean Beach, Stinson, Cronkhite) — added 2026-08-23, source: Chili Chill bucktail transcript (UNDATED; technique intel, low staleness risk)
+## Surf-casting block (coastal: Ocean Beach, Stinson, Cronkhite) — added 2026-08-23, sources: [CC-02],[CC-03] (UNDATED; technique intel, low staleness risk)
 - SURF-ENERGY MODIFIER (GUESS, calibrate): flat/low-energy surf = poor striper odds; moderate rough surf stirs sand crabs + disorients anchovies -> stripers in the FIRST TROUGH. Evidence: 4hr ~10-angler all-blank on flat conditions (one denominator point). Metric: FishNotify wave power kJ. Starting bands (INVENTED, calibrate vs sessions): <60 kJ flat/downgrade, 60-300 workable/upgrade, >300 heavy/gear-limited.
 - Tool rule (REPORTED): bucktail when wave energy strong or wave interval short (jerkbaits can't swim) or max distance needed. Retrieve w/ trailer: sink to bottom, dead-slow straight. Without: sink-jig-reel cycle. Trailer: curly/paddle/pork rind, trim hair so 3-4in trailer exposed; hair holds scent. Bucktails sink slower than they look.
 - Kit: Mustad Big Eye bucktail + Keitech Fat Swing trailer = confirmed GAP; 25lb fluoro surf leader mandatory (sand frays braid).
