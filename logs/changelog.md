@@ -6,3 +6,4 @@
 - 2026-08-23 | OUTLOOK_PROCESS.md | Added step 0 time-remaining gate. Approved by Alex. NOTE: project-knowledge copy now behind repo; repo wins per doc.
 - 2026-08-23 | spots.md, OUTLOOK_PROCESS.md, species/{striper,halibut,surfperch,rockfish_ling_cabezon}.md | Core shortlist + San Rafael launch default; full-board output format; granular per-spot species profiles derived from 31,323 deduped raw records. Striper Loch Lomond tide-lean corrected (time>tide). Ocean Beach surfperch ebb finding. Requested+approved by Alex.
 - 2026-08-23 | intel/tide_phase_logic.md (NEW), OUTLOOK_PROCESS.md | Tide-phase sequencing engine: Temple Smok flats/channel mechanic + Chilly Chill McNears micro-structure + derived ebb-59% overlay; C/S/H verification protocol; phase-timeline output requirement. Requested by Alex.
+- 2026-08-23 | intel/tide_phase_logic.md | Relabeled evidence grades C/S/H -> PROVEN/REPORTED/GUESS for clarity. Approved by Alex.
