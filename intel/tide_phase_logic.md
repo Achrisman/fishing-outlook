@@ -1,7 +1,7 @@
 # TIDE-PHASE SEQUENCING LOGIC (flats/channel spots)
 
 last_updated: 2026-08-23
-data_basis: Temple Smok framework (CSBF, Jul 2026); Chilly Chill McNears transcript (filmed ~Aug 1 2026, logged 8/23); derived profiles (31,323 deduped records); Marin pier session analyses (Mar 2026)
+data_basis: [TS-01]; [CC-01]; [DRV-01]; Marin pier session analyses (Mar 2026). Source ledger: intel/behavior_notes.md
 confidence: per-cell, marked with an evidence grade:
 - PROVEN — backed by our own data (raw CSV counts or logged sessions)
 - REPORTED — credible first-person source and/or partial data agreement; not yet tested by us
