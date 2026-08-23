@@ -8,3 +8,4 @@
 - 2026-08-23 | intel/tide_phase_logic.md (NEW), OUTLOOK_PROCESS.md | Tide-phase sequencing engine: Temple Smok flats/channel mechanic + Chilly Chill McNears micro-structure + derived ebb-59% overlay; C/S/H verification protocol; phase-timeline output requirement. Requested by Alex.
 - 2026-08-23 | intel/tide_phase_logic.md | Relabeled evidence grades C/S/H -> PROVEN/REPORTED/GUESS for clarity. Approved by Alex.
 - 2026-08-23 | registry/sources.md, OUTLOOK_PROCESS.md | Visibility layer: USGS NWIS real-time turbidity (Alcatraz confirmed) + wind-season annual pattern w/ FNU read guide. Output format v3: tide/wind chart PNG + prose top-2 briefs + alternates table. Requested by Alex.
+- 2026-08-23 | spots.md, species/halibut.md | Added Tiburon east shore + Raccoon Strait boat entries w/ derived overlays (N=307/44). Key: Aug = sharks/rays there, halibut-striper is May-Jul. Requested by Alex.
