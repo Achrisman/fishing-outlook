@@ -9,3 +9,5 @@ confidence: MEDIUM — derived 2026-08-23, small N; weight with caution
 - Ocean Beach N=23: EBB 65% — CONTRADICTS incoming-tide conventional wisdom here; PM 35% + AM 22%; Aug 30%/Jul 17%; worms 8 (dominant).
 - Cronkhite/Rodeo N=7 (thin): Flood 100%, Aug 43%, dusk/PM; worms 3, Gulp 2.
 Kit: sand crab where present; Gulp camo/worm standard.
+
+Cross-note (GUESS): rough-surf/sand-crab stirring mechanic (see striper surf block) plausibly applies to barred surfperch feeding too — test wave-power correlation in session logs.
