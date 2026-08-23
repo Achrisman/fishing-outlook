@@ -11,3 +11,4 @@ confidence: MEDIUM — derived 2026-08-23, small N; weight with caution
 Kit: sand crab where present; Gulp camo/worm standard.
 
 Cross-note (GUESS): rough-surf/sand-crab stirring mechanic (see striper surf block) plausibly applies to barred surfperch feeding too — test wave-power correlation in session logs.
+Surf structure reading (troughs/cuts/holes/rips, low-tide scouting) per striper surf block applies equally to perch zone selection.
