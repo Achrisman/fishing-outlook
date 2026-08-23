@@ -15,7 +15,7 @@ Min 22", bag limits differ inside/outside SF Bay. Verify CDFW current.
 
 ## Presentation
 - Shore: white paddle tail category, bottom contact, slow.
-- Boat: bounce-ball rig (Beef Stick + Spheros SW 5000 — GAP: reel not yet purchased); P-Line sliding halibut rig; live/fresh bait when possible — bait freshness is the #1 failure mode (March 8 blank attributed to old anchovy).
+- Boat: bounce-ball rig (Beef Stick + Spheros SW 5000 — GAP: reel not yet purchased); P-Line sliding halibut rig; live/fresh bait when possible (live jacksmelt = big-fish bias [FG-01]) — bait freshness is the #1 failure mode (March 8 blank attributed to old anchovy).
 - Gibbs flasher is salmon/offshore only — NOT for bay halibut trolling.
 
 ## Conditions gates
