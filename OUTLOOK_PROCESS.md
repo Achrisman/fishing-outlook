@@ -18,6 +18,7 @@ This file is static. All mutable intelligence lives in the module files below. A
 
 INPUT: date (default today), mode (shore | boat | both), optional target species or spot shortlist.
 
+0. **Time-remaining gate** (added 2026-08-23). If the query date is today, compute usable hours left (now → ~1h past sunset). Drop spots whose drive+launch time eats the productive window; compress recommended windows accordingly. An 11am query is a different outlook than a 6am query.
 1. **Mode gate.** Boat mode adds go/no-go checks (wind, swell, small-craft advisories — AirCat 355 risk profile per spots.md launch notes) and changes regs (shore rockfish exemptions do not apply from the boat).
 2. **Season/regs check.** For every candidate species, verify current CDFW season status via web search. Never assume from memory.
 3. **Candidate spots.** Filter spots.md by mode + species + travel constraint if given.
