@@ -16,3 +16,10 @@ Circle hooks; 12–18" leaders; minimum lead to hold; 10–12lb mono sacrifice l
 
 ## Gear map
 Beef Stick + 25lb fluoro; squid; bank sinkers; Jiggy Jig ladder (boat vertical).
+
+
+## DERIVED PROFILES (raw CSVs, deduped, 2026-08-23) — Cavallo/Fort Baker box
+- Rockfish N=79: Flood 59%; midday 37% + PM 28%; AUG PEAK 23% of records; gear scattered (swim/worm/squid/shrimp).
+- Lingcod N=17: Flood 65%; PM+midday 70%; gear swim 4 / worm 4.
+- Cabezon N=35: Flood 54%; midday-PM-dusk; months Aug 29%/Feb 17%.
+- Cronkhite rockfish N=6 (thin): flood 83%, midday-AM.
