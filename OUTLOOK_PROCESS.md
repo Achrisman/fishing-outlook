@@ -24,7 +24,7 @@ INPUT: date (default today), mode (shore | boat | both), optional target species
 3. **Candidate spots.** Filter spots.md by mode + species + travel constraint if given.
 4. **Live conditions pull** per registry/sources.md. ALWAYS pull live data — no seasonal generalizations. Minimum set: tide curve (with per-spot offset), wind, swell (coastal), water temp where available, weather.
 5. **Score.** For each spot × species, compare live conditions against the formula block in the species module. Output per spot: window (local time), confidence, one-line reasoning citing which formula fired.
-6. **Output format:** ranked table — Spot | Species | Best window | Key driver | Confidence | Watch-outs. Brief. No flattery, no padding.
+6. **Output format (updated 2026-08-23):** FULL BOARD — one row per registry spot valid for the mode (core-shortlist spots always included and listed first, marked), each with: Species | Best window | Key driver | Conf | Watch-outs. Then a TOP PICKS section (2-3) with the reasoning. Species scoring uses the granular per-spot derived profiles in the species modules (N, tide split, time bins, months, gear) — not generic seasonal logic.
 7. **Log.** If the session produces new intel or a formula correction, commit it to the repo (see Write protocol) and add a changelog line.
 
 ## Write protocol (Claude autonomous edits)
