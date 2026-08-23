@@ -28,3 +28,12 @@ CA min 18", bag 2. Verify current CDFW before keeping. Consumption advisories ap
 
 ## Gear map (Alex kit)
 Triumph + white paddle tails (Assassin 4"), Die Dapper (GAP: confirm purchased), bucktail + Keitech (GAP), lipless cranks (owned ~4, per Alex correction Aug 2026).
+
+
+## DERIVED PROFILES (raw CSVs, deduped 31,323 records, 2026-08-23) — supersede seeded formulas where they conflict
+- Loch Lomond N=133: PM15-18 44% + dusk 22% (time is the driver); tide 54F/46E — CORRECTION: seeded "outgoing" lean NOT supported. Peak months Mar 27%, Apr/Dec/Oct ~10-11%. Gear: swimbait 25, jig 9, minnow 5.
+- McNears/Rat Rock N=29: Ebb 59% (channel-on-ebb, consistent w/ Temple Smok); midday 34% + PM 31% + dusk 17%; months Nov 24%/Jan 17%/Apr 14%; gear: GRASS SHRIMP 6 (top), swim/worm/minnow 2 each.
+- Ocean Beach N=29: AM-shifted — dawn 21% + AM8-11 28%; flood 55%; Jun 38%/Jul 28%. Inner-bay midday-PM formula does NOT transfer to surf.
+- Paradise N=19: midday 68%; flood 58%; Jun/Oct/Jul.
+- Cavallo N=9 (thin): flood 67%, midday-PM.
+Caveats: catch-only (no blanks), log-time not bite-time, small-N cells flagged.
