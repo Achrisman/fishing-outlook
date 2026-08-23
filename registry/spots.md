@@ -14,7 +14,7 @@ FishNotify column: named page exists = search "fishnotify <city> fishing forecas
 |---|---|---|---|---|---|
 | Loch Lomond (jetty/outer mouth, cluster 108) [CORE-adjacent: launch] | 37.9718, -122.4818 | HW+20 / LW+30 | striper, halibut | no | Marina ramp = default boat launch |
 | Tiburon Point [CORE] | 37.8730, -122.4560 | HW+20 approx (unverified) | striper (thin data — 0 records in box; fish it as Paradise-adjacent) | no | Micro-spot unconfirmed with Alex |
-| Fort Cronkhite / Rodeo Beach [CORE] | 37.8320, -122.5390 | coastal (Pt Bonita ~SF+0, unverified) | surfperch, rockfish | no | MMR parking hours |
+| Fort Cronkhite / Rodeo Beach [CORE] | 37.8320, -122.5390 | coastal (Pt Bonita ~SF+0, unverified) | surfperch, rockfish, striper | no | MMR parking hours; cliff-bounded — fish scour holes at L/R edges (REPORTED) |
 | McNears Beach Pier [CORE, pairs w/ Rat Rock] | 38.0110, -122.4550 | ~HW+20 | striper, sturgeon | no | County park hours |
 | Paradise Beach Pier [CORE: Tiburon] | 37.8930, -122.4470 | HW+20 | halibut, striper | no | County park hours; ranger-gated |
 | China Camp / Rat Rock [CORE] | 38.0030, -122.4620 | ~HW+20 (upper San Pablo; Temple Smok offset ~+63min obs) | striper | no | State park hours |
@@ -24,7 +24,7 @@ FishNotify column: named page exists = search "fishnotify <city> fishing forecas
 | Benicia First Street Pier | 38.0445, -122.1647 | HW+117 / LW+142 (corrected offset) | Chinook (Sept–Oct) | no | — |
 | Dillon Point SRA | 38.0599, -122.1941 | HW+117 / LW+142 | Chinook (Sept–Oct) | no | — |
 | Eckley Pier (south bank Carquinez) | 38.0570, -122.1810 | HW+117 / LW+142 (approx, Benicia) | Chinook (Sept) | no | 8pm summer gate; infra issues through late Jul 2026 — re-verify |
-| Ocean Beach SF [CORE] | 37.7599, -122.5108 | coastal | surfperch, striper | YES (named page) | — |
+| Ocean Beach SF [CORE] | 37.7599, -122.5108 | coastal | surfperch, striper | YES (named page) | Second trough ~20ft out; zone>distance (REPORTED) |
 
 ## Boat (AirCat 355 / True Kit 400 pending)
 
