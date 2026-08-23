@@ -22,6 +22,11 @@ CA min 18", bag 2. Verify current CDFW before keeping. Consumption advisories ap
 - Timing rule: start ~2h after low (not clock-anchored).
 - Gear: white paddle tail on jig head — category, not SKU. Rattling option: Storm 360GT Searchbait Shad 3/8oz (rattle is in the jighead — don't rig bodies on plain heads and expect the feature).
 
+## Surf-casting block (coastal: Ocean Beach, Stinson, Cronkhite) — added 2026-08-23, source: Chili Chill bucktail transcript (UNDATED; technique intel, low staleness risk)
+- SURF-ENERGY MODIFIER (GUESS, calibrate): flat/low-energy surf = poor striper odds; moderate rough surf stirs sand crabs + disorients anchovies -> stripers in the FIRST TROUGH. Evidence: 4hr ~10-angler all-blank on flat conditions (one denominator point). Metric: FishNotify wave power kJ. Starting bands (INVENTED, calibrate vs sessions): <60 kJ flat/downgrade, 60-300 workable/upgrade, >300 heavy/gear-limited.
+- Tool rule (REPORTED): bucktail when wave energy strong or wave interval short (jerkbaits can't swim) or max distance needed. Retrieve w/ trailer: sink to bottom, dead-slow straight. Without: sink-jig-reel cycle. Trailer: curly/paddle/pork rind, trim hair so 3-4in trailer exposed; hair holds scent. Bucktails sink slower than they look.
+- Kit: Mustad Big Eye bucktail + Keitech Fat Swing trailer = confirmed GAP; 25lb fluoro surf leader mandatory (sand frays braid).
+
 ## Conditions modifiers
 - Reaction feeders in current — sight/movement over scent; skip scent in murky tidal creeks, run contrast (white).
 - Least light-sensitive of the targets; midday viable, dusk better.
