@@ -1,6 +1,6 @@
 # DATA PULL PLAYBOOK
 
-last_updated: 2026-08-23
+last_updated: 2026-09-10
 confidence: FishNotify pattern TESTED 2026-08-23 (Pacifica, live same-day data); NOAA API established across many sessions
 
 ## Rules
@@ -35,6 +35,19 @@ One fetch returns: 0-100 score, water temp, wind AM/PM, swell ht/period, wave po
 ## Visibility / turbidity (added 2026-08-23)
 LIVE: USGS NWIS real-time turbidity (FNU, 15-min), 8 SF Bay stations. Confirmed live: Alcatraz 374938122251801. Pattern: web_search "USGS turbidity <station/area>" -> fetch. Caveats: channel sensors UNDERSTATE shallows (USGS: shallows are the most turbid water, wave-driven resuspension); Central Bay stations are a proxy for San Pablo.
 ANNUAL PATTERN (REPORTED, USGS-mechanism-backed): turbidity tracks wind season — murky ~late May-summer, clearing fall. Hourly wind forecast doubles as same-day clarity predictor. Rough angler read: <10 FNU decent viz, 10-30 marginal, >30 mud. Calibrate against on-water estimates in session logs.
+
+## Salmon run-timing telemetry — NOAA CalFishTrack (added 2026-09-10)
+PROVEN-grade run position: acoustic-tagged adult Chinook (2026: 75 fish, Gulf of Farallones release Jul 27-Aug 27, mean ~714mm) on receiver lines Golden Gate -> Carquinez -> Delta. Unique-fish counts per receiver = direct observation of where the run is.
+- Pattern: web_search "CalFishTrack ocean salmon 2026" -> fetch (oceanview.pfeg.noaa.gov/CalFishTrack/pageOceanSalmon_YYYY.html; new page per year). Data typically current as of prior midnight — check page timestamp.
+- STANDING STEP: check before ANY salmon session (bay, Benicia, Delta). See OUTLOOK_PROCESS step 4.
+- Decision rules:
+  1. High release count, low Carquinez detections -> cohort in ocean/bay corridor -> bay troll (Raccoon Strait / California City) + Benicia are the play.
+  2. Carquinez detections climbing -> Benicia/Dillon pulse active/imminent; cross-check First St daily counts.
+  3. Upper-Delta/Sac receivers lighting up -> Steamboat Slough / Walnut Grove trigger; shift effort upstream.
+  4. Upstream saturated, Carquinez flat -> main body passed; wind down bay/Benicia effort.
+- NOT evidence of: feeding/bite, or which bay corridor (Raccoon Strait vs main channel — unresolved).
+- Caveats: ~75-fish sample, single nearshore release site, receiver ranges vary. Percentages indicative.
+- Baseline 2026-09-10: 29/27 unique fish at Carquinez lines (~38% of cohort), 0 at all upstream Delta receivers.
 
 ## Regs
 - CDFW via web search, every session, per species. Shore exemptions ≠ boat regs.
