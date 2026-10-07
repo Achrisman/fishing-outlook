@@ -57,5 +57,8 @@ Discovery 400 nearshore go/no-go STARTING BANDS (GUESS — calibrate against ses
 - NO-GO: >15 kt, >7 ft, or short-period windswell >=5 ft; any small-craft advisory on PZZ545
 Season note: NW windswell events define fall; mornings before the gradient fills are the window.
 
+## Tomales Bay conditions gate (added 2026-10-07)
+Tides: inside-bay NOAA subordinate stations (Marshall / Inverness / Blakes Landing) via US Harbors or tides4fishing — do NOT apply SF Bay offsets; mid-bay halibut formula keys to LOCAL flood. Wind: NWS PZZ540 (Pt Arena-Pt Reyes coastal) for the mouth + Bodega Bay FishNotify named page (confirmed) for swell/kJ/water temp; inside-bay wind is land-sheltered NW — afternoon fetch builds down the bay axis, mornings are the window. Observed: NDBC 46013 (Bodega). BAR RULE (FG-01): the Tomales bar between Sand Pt and Tomales Pt is a hazard zone — ebb against NW swell breaks; Discovery 400 stays INSIDE the bay, launch Nick's Cove/Miller Park side, no bar crossings. Score mid-bay (Hog Island/Pelican Pt flat-to-channel drift) per species/halibut.md.
+
 ## Regs
 - CDFW via web search, every session, per species. Shore exemptions ≠ boat regs.
