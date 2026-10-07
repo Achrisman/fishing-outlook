@@ -1,6 +1,6 @@
 # FISHING OUTLOOK — PROCESS (canonical)
 
-last_updated: 2026-08-23
+last_updated: 2026-10-07
 owner: Alex | repo: github.com/Achrisman/fishing-outlook
 This file is static. All mutable intelligence lives in the module files below. A copy of this file sits in Claude project knowledge; if they ever differ, the repo version wins.
 
@@ -18,7 +18,7 @@ This file is static. All mutable intelligence lives in the module files below. A
 ## Outlook query procedure
 
 INPUT: date (default today), mode (shore | boat | both), optional target species or spot shortlist.
-HORIZON (2026-10-07): the scheduled daily run always covers today PLUS the next 3 days minimum — full detail (phase timelines, top picks) for today, compact day-by-day (best window | play | grade) for D+1..D+3, flagging any day whose forecast could not be verified fresh. Ad hoc queries use whatever horizon is asked.
+HORIZON (updated 2026-10-07, per Alex): the scheduled daily run covers today in full detail (phase timelines, top picks) PLUS every remaining day of the current week through Sunday (minimum D+1..D+3 when run on a weekend), rendered as a WEEK-AHEAD block — ONE line per day: best window (local time) | the play (spot+species+approach, a few words) | grade, flagging any day whose forecast could not be verified fresh. Short descriptions only; the detail lives in today's briefs. Ad hoc queries use whatever horizon is asked.
 
 0. **Time-remaining gate** (added 2026-08-23). If the query date is today, compute usable hours left (now → ~1h past sunset). Drop spots whose drive+launch time eats the productive window; compress recommended windows accordingly. An 11am query is a different outlook than a 6am query.
 1. **Mode gate.** Boat mode adds go/no-go checks (wind, swell, small-craft advisories — AirCat 355 risk profile per spots.md launch notes) and changes regs (shore rockfish exemptions do not apply from the boat).
@@ -30,6 +30,7 @@ HORIZON (2026-10-07): the scheduled daily run always covers today PLUS the next 
 (a) TIDE/WIND CHART — matplotlib PNG via present_files: local tide curve (cosine interp between offset extremes), vertical NOW + SUNSET lines, hourly x-ticks, hourly wind numbers on twin axis (flag as est. when interpolated from NWS zone ranges), extreme annotations.
 (b) TOP 2 PICKS as short prose intel briefs (a few sentences each — phase sequence, structure, presentation, grades, hard stops). NOT tables.
 (c) ALTERNATES as a compact table (Spot | Species | Verdict). Each top pick at a sequenced spot MUST include the phase timeline in decision form per intel/tide_phase_logic.md ("flood until HH:MM — species on structure, presentation → slack — ... → ebb — ..."). Less conversational; these are decisions, not narration. Species scoring uses the granular per-spot derived profiles in the species modules (N, tide split, time bins, months, gear) — not generic seasonal logic.
+(d) WEEK AHEAD (added 2026-10-07) — the horizon block above: one line per remaining day of the week, best window | play | grade.
 7. **Log.** If the session produces new intel or a formula correction, commit it to the repo (see Write protocol) and add a changelog line.
 
 ## Write protocol (Claude autonomous edits)
