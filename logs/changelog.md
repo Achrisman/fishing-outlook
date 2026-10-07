@@ -19,3 +19,4 @@
 - 2026-10-07 | OUTLOOK_PROCESS.md | Scheduled daily outlook horizon: today + next 3 days minimum (compact day-by-day beyond today). Requested by Alex.
 - 2026-10-07 | data/tides_9414290_2026-10.md | Extended cache to full month (US Harbors, fetched 10/7 for week-ahead view). Oct 18-19 flagged RE-VERIFY (source column shift); deep minus-lows Oct 25-31. Seen in-chat by Alex.
 - 2026-10-07 | OUTLOOK_PROCESS.md | Horizon refined per Alex (live, test-fire session): rest of current week through Sunday, ONE line per day (best window | play | grade); added as output package item (d). Requested by Alex.
+- 2026-10-07 | OUTLOOK_PROCESS.md | Daily outlook horizon stretched 3 days -> 7 days with explicit wind-confidence decay (solid ~3d, provisional 4-5d, FishNotify-only 6-7d). Requested by Alex.
