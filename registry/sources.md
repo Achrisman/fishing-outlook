@@ -49,5 +49,13 @@ PROVEN-grade run position: acoustic-tagged adult Chinook (2026: 75 fish, Gulf of
 - Caveats: ~75-fish sample, single nearshore release site, receiver ranges vary. Percentages indicative.
 - Baseline 2026-09-10: 29/27 unique fish at Carquinez lines (~38% of cohort), 0 at all upstream Delta receivers.
 
+## HMB boat-conditions gate (added 2026-10-07, for Discovery 400 coastal runs)
+Pull BOTH, same session: (1) NWS PZZ545 (Pt Reyes-Pigeon Pt coastal, 10nm) via search->fetch (cache-buster ?v=YYYYMMDD; VERIFY issuance date — this feed served week-stale caches twice) for wind kt + combined seas + wave detail; (2) FishNotify Half Moon Bay named page for swell ht/period, wave power kJ, water temp, score. NDBC 46012 (HMB buoy) for observed when forecast and reality need reconciling. Pillar Point bar: NWS SF Bar forecast when crossing matters — ebb against swell is the kill condition.
+Discovery 400 nearshore go/no-go STARTING BANDS (GUESS — calibrate against sessions, same protocol as kJ bands):
+- GO: wind <=10 kt AND combined seas <=5 ft with dominant period >=8s
+- CAUTION (harbor-mouth radius, buddy awareness): 10-15 kt OR 5-7 ft OR period <8s on 4ft+
+- NO-GO: >15 kt, >7 ft, or short-period windswell >=5 ft; any small-craft advisory on PZZ545
+Season note: NW windswell events define fall; mornings before the gradient fills are the window.
+
 ## Regs
 - CDFW via web search, every session, per species. Shore exemptions ≠ boat regs.

@@ -14,3 +14,4 @@
 - 2026-08-23 | intel/behavior_notes.md (rewrite), species/{striper,halibut,salmon}.md, intel/tide_phase_logic.md | Source ledger w/ IDs (TS/CC/YT-IB/FG/DRV); all behavior claims now cite IDs; both new Chili Chill transcripts (CC-02, CC-03) fully entered. URLs pending from Alex for CC-01/02/03. Requested by Alex.
 - 2026-09-10 | registry/sources.md, OUTLOOK_PROCESS.md | Added NOAA CalFishTrack acoustic telemetry as PROVEN run-timing source + 4 decision rules; baseline 29/27 @ Carquinez, 0 upstream (9/10). Approved by Alex.
 - 2026-10-02 | data/tides_9414290_2026-10.md | Monthly tide cache refresh (Oct 2-10, US Harbors; Oct 4 extraction swap corrected). Standing monthly-refresh rule.
+- 2026-10-07 | registry/sources.md | HMB boat-conditions gate: PZZ545+FishNotify+46012 pull set, Pillar Pt bar rule, Discovery 400 go/no-go starting bands (GUESS-calibrate). For scheduled outlook routine. Requested by Alex.
