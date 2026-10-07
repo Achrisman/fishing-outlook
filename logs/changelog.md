@@ -17,3 +17,5 @@
 - 2026-10-07 | registry/sources.md | HMB boat-conditions gate: PZZ545+FishNotify+46012 pull set, Pillar Pt bar rule, Discovery 400 go/no-go starting bands (GUESS-calibrate). For scheduled outlook routine. Requested by Alex.
 - 2026-10-07 | registry/sources.md | Tomales Bay conditions gate: inside-bay tide stations (no SF offsets), PZZ540+Bodega FishNotify+46013 pull set, bar exclusion rule [FG-01], morning-window wind note. Added to daily outlook sweep. Requested by Alex.
 - 2026-10-07 | OUTLOOK_PROCESS.md | Scheduled daily outlook horizon: today + next 3 days minimum (compact day-by-day beyond today). Requested by Alex.
+- 2026-10-07 | data/tides_9414290_2026-10.md | Extended cache to full month (US Harbors, fetched 10/7 for week-ahead view). Oct 18-19 flagged RE-VERIFY (source column shift); deep minus-lows Oct 25-31. Seen in-chat by Alex.
+- 2026-10-07 | OUTLOOK_PROCESS.md | Horizon refined per Alex (live, test-fire session): rest of current week through Sunday, ONE line per day (best window | play | grade); added as output package item (d). Requested by Alex.
