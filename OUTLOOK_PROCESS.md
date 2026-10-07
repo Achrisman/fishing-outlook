@@ -18,6 +18,7 @@ This file is static. All mutable intelligence lives in the module files below. A
 ## Outlook query procedure
 
 INPUT: date (default today), mode (shore | boat | both), optional target species or spot shortlist.
+HORIZON (2026-10-07): the scheduled daily run always covers today PLUS the next 3 days minimum — full detail (phase timelines, top picks) for today, compact day-by-day (best window | play | grade) for D+1..D+3, flagging any day whose forecast could not be verified fresh. Ad hoc queries use whatever horizon is asked.
 
 0. **Time-remaining gate** (added 2026-08-23). If the query date is today, compute usable hours left (now → ~1h past sunset). Drop spots whose drive+launch time eats the productive window; compress recommended windows accordingly. An 11am query is a different outlook than a 6am query.
 1. **Mode gate.** Boat mode adds go/no-go checks (wind, swell, small-craft advisories — AirCat 355 risk profile per spots.md launch notes) and changes regs (shore rockfish exemptions do not apply from the boat).
