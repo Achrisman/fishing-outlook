@@ -1,6 +1,6 @@
 # FISHING OUTLOOK — PROCESS (canonical)
 
-last_updated: 2026-10-07
+last_updated: 2026-10-14
 owner: Alex | repo: github.com/Achrisman/fishing-outlook
 This file is static. All mutable intelligence lives in the module files below. A copy of this file sits in Claude project knowledge; if they ever differ, the repo version wins.
 
@@ -26,11 +26,15 @@ HORIZON (updated 2026-10-07, per Alex): the scheduled daily run covers today in 
 3. **Candidate spots.** Filter spots.md by mode + species + travel constraint if given.
 4. **Live conditions pull** per registry/sources.md. ALWAYS pull live data — no seasonal generalizations. Minimum set: tide curve (with per-spot offset), wind, swell (coastal), water temp where available, weather. Salmon in scope -> also pull CalFishTrack telemetry per registry/sources.md (run position gates bay-corridor vs Benicia vs Delta).
 5. **Score.** For each spot × species, compare live conditions against the formula block in the species module. Output per spot: window (local time), confidence, one-line reasoning citing which formula fired.
-6. **Output format (updated 2026-08-23):** FULL BOARD — one row per registry spot valid for the mode (core-shortlist spots always included and listed first, marked), each with: Species | Best window | Key driver | Conf | Watch-outs. OUTPUT PACKAGE (format v3, 2026-08-23):
-(a) TIDE/WIND CHART — matplotlib PNG via present_files: local tide curve (cosine interp between offset extremes), vertical NOW + SUNSET lines, hourly x-ticks, hourly wind numbers on twin axis (flag as est. when interpolated from NWS zone ranges), extreme annotations.
-(b) TOP 2 PICKS as short prose intel briefs (a few sentences each — phase sequence, structure, presentation, grades, hard stops). NOT tables.
-(c) ALTERNATES as a compact table (Spot | Species | Verdict). Each top pick at a sequenced spot MUST include the phase timeline in decision form per intel/tide_phase_logic.md ("flood until HH:MM — species on structure, presentation → slack — ... → ebb — ..."). Less conversational; these are decisions, not narration. Species scoring uses the granular per-spot derived profiles in the species modules (N, tide split, time bins, months, gear) — not generic seasonal logic.
-(d) WEEK AHEAD (added 2026-10-07) — the horizon block above: one line per remaining day of the week, best window | play | grade.
+6. **Output format (updated 2026-10-14):** FULL BOARD scoring unchanged — one row per registry spot valid for the mode (core-shortlist spots always included and listed first, marked), each with: Species | Best window | Key driver | Conf | Watch-outs. OUTPUT PACKAGE (format v4, 2026-10-14 — PROGRESSIVE DISCLOSURE, per Alex: brief first, detail second; v3 components retained but re-layered):
+LAYER 1 — THE CALL: <=5 lines, delivered FIRST and leading the push notification. Now-action + time, today's #1 window, the week's standout day, any hard flag (regs/safety/weather). Phone-glanceable; no evidence citations, no N-counts, no narration.
+LAYER 2 — TIDE/WIND CHART — matplotlib PNG (unchanged from v3): local tide curve (cosine interp between offset extremes), vertical NOW + SUNSET lines, day labels, wind values where verified (flag estimates/provisional), extreme annotations, moon notes.
+LAYER 3 — DETAIL BLOCKS, each standing alone and answering exactly one question, in this order:
+(a) TODAY HOUR-BY-HOUR — phase timeline in decision form per intel/tide_phase_logic.md ("flood until HH:MM — species on structure, presentation → slack — ... → ebb — ...") for the top picks; sequenced spots MUST use this form.
+(b) WEEK AT A GLANCE — one line per day: best window | play | grade, confidence-decay flags explicit.
+(c) ALTERNATES — compact table (Spot | Species | Verdict).
+(d) GATES / REGS / EVIDENCE — grades, N-counts, go/no-go numbers, regs citations. All evidence lives HERE, never woven into Layer 1.
+Species scoring still uses the granular per-spot derived profiles in the species modules (N, tide split, time bins, months, gear) — not generic seasonal logic. Brief, decision-dense, no padding — the layering changes where detail goes, not how much rigor is behind it.
 7. **Log.** If the session produces new intel or a formula correction, commit it to the repo (see Write protocol) and add a changelog line.
 
 ## Write protocol (Claude autonomous edits)
@@ -45,4 +49,3 @@ HORIZON (updated 2026-10-07, per Alex): the scheduled daily run covers today in 
 
 - Every file carries front-matter: last_updated, data_basis, confidence.
 - Shore/boat is a `mode:` field on entries, never a separate folder.
-- New species/spot = copy the template block in the relevant file, fill, commit.
