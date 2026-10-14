@@ -49,3 +49,4 @@ Species scoring still uses the granular per-spot derived profiles in the species
 
 - Every file carries front-matter: last_updated, data_basis, confidence.
 - Shore/boat is a `mode:` field on entries, never a separate folder.
+- New species/spot = copy the template block in the relevant file, fill, commit.
