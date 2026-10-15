@@ -23,6 +23,7 @@ One fetch returns: 0-100 score, water temp, wind AM/PM, swell ht/period, wave po
 
 ## Wind / marine
 - NWS marine forecast (SF Bay / coastal waters zones) via web search/fetch.
+- STALE-CACHE WORKAROUND (verified 2026-10-15): forecast.weather.gov shmrn pages AND tgftp zone .txt files served 4-20-day-stale issuances even with cache-busters (all three zones, same morning). The NDBC mirror of the full Monterey CWF — ndbc.noaa.gov/data/Forecasts/FZUS56.KMTR.html (search-indexed, accepts ?v= cache-buster) — returned the same-morning 2:42a issuance covering every PZZ zone in one fetch. Check issuance date first; if stale, go straight to the NDBC mirror.
 - NDBC buoys for observed: note TIBC1 (Tiburon) offline as of last check — re-verify.
 - Windy/Surfline: dynamic pages may return cached data via fetch; Alex screenshots are more reliable for real-time surf. Say so when uncertain.
 
