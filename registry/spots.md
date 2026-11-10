@@ -14,25 +14,25 @@ FishNotify column: named page exists = search "fishnotify <city> fishing forecas
 |---|---|---|---|---|---|
 | Loch Lomond (jetty/outer mouth, cluster 108) [CORE-adjacent: launch] | 37.9718, -122.4818 | HW+20 / LW+30 | striper, halibut | no | Marina ramp = default boat launch |
 | Tiburon Point [CORE] | 37.8730, -122.4560 | HW+20 approx (unverified) | striper (thin data — 0 records in box; fish it as Paradise-adjacent) | no | Micro-spot unconfirmed with Alex |
-| Fort Cronkhite / Rodeo Beach [CORE] | 37.8320, -122.5390 | coastal (Pt Bonita ~SF+0, unverified) | surfperch, rockfish, striper | no | MMR parking hours; cliff-bounded — fish scour holes at L/R edges (REPORTED) |
+| Fort Cronkhite / Rodeo Beach [CORE] | 37.8320, -122.5390 | coastal (Pt Bonita ~SF+0, unverified) | surfperch, rockfish, striper, dungeness (snare) | no | MMR parking hours; cliff-bounded — fish scour holes at L/R edges (REPORTED) |
 | McNears Beach Pier [CORE, pairs w/ Rat Rock] | 38.0110, -122.4550 | ~HW+20 | striper, sturgeon | no | County park hours |
 | Paradise Beach Pier [CORE: Tiburon] | 37.8930, -122.4470 | HW+20 | halibut, striper | no | County park hours; ranger-gated |
 | China Camp / Rat Rock [CORE] | 38.0030, -122.4620 | ~HW+20 (upper San Pablo; Temple Smok offset ~+63min obs) | striper | no | State park hours |
 | Crissy Field | 37.8039, -122.4640 | ≈0 (station-adjacent) | striper, halibut | no | — |
 | Fort Baker / Cavallo Point [CORE] | 37.8355, -122.4770 | ≈0 | rockfish, striper | no | — |
-| Stinson Beach [CORE] | 37.8965, -122.6440 | HW-29 / LW-28 | striper, surfperch | no (coastal — test named page) | — |
+| Stinson Beach [CORE] | 37.8965, -122.6440 | HW-29 / LW-28 | striper, surfperch, dungeness (snare) | no (coastal — test named page) | — |
 | Benicia First Street Pier | 38.0445, -122.1647 | HW+117 / LW+142 (corrected offset) | Chinook (Sept–Oct) | no | — |
 | Dillon Point SRA | 38.0599, -122.1941 | HW+117 / LW+142 | Chinook (Sept–Oct) | no | — |
 | Eckley Pier (south bank Carquinez) | 38.0570, -122.1810 | HW+117 / LW+142 (approx, Benicia) | Chinook (Sept) | no | 8pm summer gate; infra issues through late Jul 2026 — re-verify |
-| Ocean Beach SF [CORE] | 37.7599, -122.5108 | coastal | surfperch, striper | YES (named page) | Second trough ~20ft out; zone>distance (REPORTED) |
+| Ocean Beach SF [CORE] | 37.7599, -122.5108 | coastal | surfperch, striper, dungeness (snare) | YES (named page) | Second trough ~20ft out; zone>distance (REPORTED). NOTE: Dungeness legal here (ocean side) — NOT inside GG Bridge |
 
 ## Boat (AirCat 355 / True Kit 400 pending)
 
 | Spot | Coords | Tide offset | Species | FishNotify | Launch / go-no-go |
 |---|---|---|---|---|---|
-| Tomales Bay mid-bay | 38.1560, -122.9020 | Tomales local (use inside-bay stations) | halibut (flood) | no | Sheltered; wind fetch builds PM |
+| Tomales Bay mid-bay | 38.1560, -122.9020 | Tomales local (use inside-bay stations) | halibut (flood), dungeness (hoops) | no | Sheltered; wind fetch builds PM |
 | Berkeley Flats | 37.8720, -122.3400 | ≈0 | halibut, striper | no | Exposed to W wind chop |
-| HMB nearshore | 37.4950, -122.4990 | Pillar Point 9414131 | salmon, rockfish | YES (Half Moon Bay page) | AirCat: buddy-boat or stay near harbor mouth |
+| HMB nearshore | 37.4950, -122.4990 | Pillar Point 9414131 | salmon, rockfish, dungeness (hoops) | YES (Half Moon Bay page) | AirCat: buddy-boat or stay near harbor mouth |
 | Bolinas Lagoon launch → Marin coast | 37.9060, -122.6860 | Stinson offsets nearby | salmon (Aug window) | no | Tide-dependent launch; bar caution |
 | Tiburon east shore (Paradise→Bluff Pt shelf) | 37.882, -122.461 | ~SF+10/+20 | halibut+striper MAY-JUL (Aug shares 9%/3%); Aug = leopard shark (flood 69%, dusk/night) + bat ray (ebb 62%) | no | Derived N=307; more SW-exposed than McNears lee |
 | Raccoon Strait | 37.878, -122.448 | ≈SF+10 | halibut/striper drift MAY-JUL only (N=6 ea, zero Aug); THIN DATA — June revisit | no | Strongest current in range; wind-against-ebb chop = AirCat caution |
