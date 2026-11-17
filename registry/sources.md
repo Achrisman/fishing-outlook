@@ -1,6 +1,6 @@
 # DATA PULL PLAYBOOK
 
-last_updated: 2026-09-10
+last_updated: 2026-11-17
 confidence: FishNotify pattern TESTED 2026-08-23 (Pacifica, live same-day data); NOAA API established across many sessions
 
 ## Rules
@@ -24,6 +24,7 @@ One fetch returns: 0-100 score, water temp, wind AM/PM, swell ht/period, wave po
 ## Wind / marine
 - NWS marine forecast (SF Bay / coastal waters zones) via web search/fetch.
 - STALE-CACHE WORKAROUND (verified 2026-10-15): forecast.weather.gov shmrn pages AND tgftp zone .txt files served 4-20-day-stale issuances even with cache-busters (all three zones, same morning). The NDBC mirror of the full Monterey CWF — ndbc.noaa.gov/data/Forecasts/FZUS56.KMTR.html (search-indexed, accepts ?v= cache-buster) — returned the same-morning 2:42a issuance covering every PZZ zone in one fetch. Check issuance date first; if stale, go straight to the NDBC mirror.
+- WORKAROUND UPDATE (verified 2026-11-17): the NDBC mirror ITSELF served a Mar-2025 cache (bare URL; cache-busted fetch hit an unattended permission block), and the tgftp full-CWF file (fzus56.kmtr.cwf.mtr.txt) served Apr-2025. What worked: per-zone tgftp files tgftp.nws.noaa.gov/data/forecasts/marine/coastal/pz/pzzNNN.txt — bare fetch may be a day stale, but WITH ?v=YYYYMMDD cache-buster they returned fresh issuances (PZZ540 same-morning 3:12a; PZZ530/545 prior-afternoon). Neither path is reliable alone: try zone .txt + cache-buster first, NDBC mirror second, and ALWAYS verify the issuance line before using any of them.
 - NDBC buoys for observed: note TIBC1 (Tiburon) offline as of last check — re-verify.
 - Windy/Surfline: dynamic pages may return cached data via fetch; Alex screenshots are more reliable for real-time surf. Say so when uncertain.
 
