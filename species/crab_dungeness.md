@@ -1,8 +1,8 @@
 # DUNGENESS CRAB (hoop nets + snares)
 
-last_updated: 2026-11-10
-data_basis: regs verified live 2026-11-10 (CDFW news release 2026-10-30 + 14 CCR 29.85); programs and thresholds seeded per Alex 2026-11-10 — NO catch data yet, all bands GUESS, calibrate per the kJ-band protocol (log every soak/session incl. blanks)
-confidence: regs HIGH (volatile — trap restriction reassessed mid-Dec); thresholds GUESS
+last_updated: 2026-11-25
+data_basis: regs verified live 2026-11-10 (CDFW news release 2026-10-30 + 14 CCR 29.85); programs and thresholds seeded per Alex 2026-11-10; first calibration session 2026-11-21 (Tomales inside-bay, Alex first-person + Navionics GPX, logged 11-25)
+confidence: regs HIGH (volatile — trap restriction reassessed mid-Dec); thresholds GUESS; inside-bay hoop program PRODUCES (own data, N=1 session)
 
 ## Regs check (every session) — CRITICAL, in-season changes likely
 - Season (our counties — Sonoma/Marin/SF/San Mateo): first Saturday in Nov → Jun 30. 2026-27 opened Nov 7.
@@ -13,7 +13,7 @@ confidence: regs HIGH (volatile — trap restriction reassessed mid-Dec); thresh
 - Whale Fleet Advisory active all zones: don't set gear where whales are working.
 
 ## Programs
-- **Boat hoop nets (mode: boat — HMB nearshore, Tomales inside-bay, Bodega)**: rides the existing Discovery 400 go/no-go gates in registry/sources.md — no separate wind/sea bands. Drop 2-4 hoops on sand/mud 30-80 ft (HMB: near harbor-mouth radius consistent with the gate band of the day), run the rockfish program between 30-45 min pulls (2h service rule is the legal ceiling, not the target). Tomales: inside-bay only per FG-01, channel edges off Hog Island/Pelican Pt. SWELL QUALITY MODIFIER (GUESS): short-period windswell ≥4 ft drags/walks hoops and muddies the soak — prefer ≤5 ft at ≥10s even when the gate says CAUTION-ok.
+- **Boat hoop nets (mode: boat — HMB nearshore, Tomales inside-bay, Bodega)**: rides the existing Discovery 400 go/no-go gates in registry/sources.md — no separate wind/sea bands. Drop 2-4 hoops on sand/mud 30-80 ft (HMB: near harbor-mouth radius consistent with the gate band of the day), run the rockfish program between 30-45 min pulls (2h service rule is the legal ceiling, not the target). Tomales: inside-bay only per FG-01, channel edges off Hog Island/Pelican Pt — PRODUCER CONFIRMED 2026-11-21 (see session log): Hog Island edge AND a set ~1mi NW on the Tomales Pt side both produced. SWELL QUALITY MODIFIER (GUESS): short-period windswell ≥4 ft drags/walks hoops and muddies the soak — prefer ≤5 ft at ≥10s even when the gate says CAUTION-ok.
 - **Shore snares (mode: shore — Ocean Beach, Stinson, Cronkhite/Rodeo; Dillon Beach/Doran worth scouting, not yet registry spots)**: cast loop-snare with bait cage on the heavy rod (Beef Stick doubles), 4-6 oz+, let it soak 5-15 min, steady sweep-retrieve to close loops. Surf-gated, NOT tide-gated (tide read below is GUESS).
 
 ## Thresholds (per Alex 2026-11-10: surf and sea state are THE gates) — starting bands, GUESS
@@ -23,10 +23,13 @@ confidence: regs HIGH (volatile — trap restriction reassessed mid-Dec); thresh
   - NO-GO: >6 ft, OR short-period windswell on 4 ft+, OR any SCA — gear loss + sneaker waves
   - (kJ cross-read while calibrating: roughly <1200 workable, >2500 no-go. Note this INVERTS the striper preference — snare days are the flat days stripers hate.)
 - Boat hoops: gate = the day's HMB/Tomales Discovery 400 call (GO/CAUTION only; never NO-GO) + the swell-quality modifier above.
-- Tide (GUESS, low weight): flood → high slack commonly reported best for beach snaring; calm beats phase. Log and test.
+- Tide (GUESS, low weight): flood → high slack commonly reported best for beach snaring; calm beats phase. Log and test. First data point 2026-11-21 (boat hoops, not snares): steady production through the first half of a 6-ft spring ebb — supports phase-insensitivity when sheltered/calm (N=1).
 
 ## Kit
 Hoop nets x2-4 w/ weighted bait cages + floats (verify buoy marking current reqs before first drop — KIT GAP: confirm owned); loop snares 4-6 loop + bait cage (KIT GAP); bait: squid, chicken, salmon heads/carcasses (freshness rule applies); crab gauge (5¾") mandatory in the kit; gloves.
+
+## Session log (calibration)
+- 2026-11-21 | Tomales inside-bay hoops (boat), 10:21a–1:26p PST | 2 hoops | Hog Island channel edge (38.187, −122.929) + second set ~1mi NW, Tomales Pt side (38.195, −122.943) — BOTH produced | 4 legal Dungeness kept + 2 big red rock crab | steady action most pulls, culling shorts | Tide: fished H+1.5h → H+4.5h, first half of a ~6-ft spring ebb (Marshall H ~8:50a; SF: H 8:19a 6.0 → L 2:58p 0.1), NOT slack | Sea state / swell / kJ not logged | Source: Alex first-person (in-chat 2026-11-25) + Navionics GPX track07.
 
 ## Verification protocol
 Same as tide_phase_logic.md: every soak/session logs date, spot, gear (hoops n / snare), swell ht+period, kJ, soak times, keepers/shorts/blanks. ~8 trials per band → promote or move the line.
